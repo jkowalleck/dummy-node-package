@@ -2,7 +2,7 @@
   "name": "@jkowalleck/dummy-node-package",
   "version": "0.1.0",
   "description": "a dummy to test github's NPM registry ",
-  "publishConfig":{"registry":"http://my-internal-registry.local"}
+  "publishConfig":{"registry":"https://github.com/jkowalleck/dummy-node-package.git"},
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
